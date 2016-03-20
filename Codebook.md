@@ -1,5 +1,5 @@
-#Cookbook
-This cookbook includes identifiers, measurements and activity labels to summarize the result of tidy.txt
+#Codebook
+This codebook includes identifiers, measurements and activity labels to summarize the result of tidy.txt
 ##Identifiers
 <br />subject - The ID of the test subject
 <br />activity - The type of activity performed when the corresponding measurements were taken
@@ -84,9 +84,9 @@ This cookbook includes identifiers, measurements and activity labels to summariz
 <br />fBodyBodyGyroJerkMagStd
 <br />fBodyBodyGyroJerkMagMeanFreq
 ##Activity Labels
-<br />1 walking
-<br />2 walking_upstairs
-<br />3 walking_downstairs
-<br />4 sitting
-<br />5 standing
-<br />6 laying
+<br />walking
+<br />walking_upstairs
+<br />walking_downstairs
+<br />sitting
+<br />standing
+<br />laying
