@@ -3,7 +3,7 @@ This codebook includes identifiers, measurements and activity labels to summariz
 ##Identifiers
 <br />subject - The ID of the test subject
 <br />activity - The type of activity performed when the corresponding measurements were taken
-##Measurements
+###Measurements
 <br />tBodyAccMeanX
 <br />tBodyAccMeanY
 <br />tBodyAccMeanZ
@@ -83,7 +83,7 @@ This codebook includes identifiers, measurements and activity labels to summariz
 <br />fBodyBodyGyroJerkMagMean
 <br />fBodyBodyGyroJerkMagStd
 <br />fBodyBodyGyroJerkMagMeanFreq
-##Type of activity
+###Type of activity
 walking
 <br />walking_upstairs
 <br />walking_downstairs
