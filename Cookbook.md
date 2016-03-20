@@ -1,92 +1,92 @@
 #Cookbook
-This cookbook includes identifiers, measurements and activity labels to summarize the result of txt
+This cookbook includes identifiers, measurements and activity labels to summarize the result of tidy.txt
 ##Identifiers
-subject - The ID of the test subject
-activity - The type of activity performed when the corresponding measurements were taken
+<br />subject - The ID of the test subject
+<br />activity - The type of activity performed when the corresponding measurements were taken
 ##Measurements
-tBodyAccMeanX
-tBodyAccMeanY
-tBodyAccMeanZ
-tBodyAccStdX
-tBodyAccStdY
-tBodyAccStdZ
-tGravityAccMeanX
-tGravityAccMeanY
-tGravityAccMeanZ
-tGravityAccStdX
-tGravityAccStdY
-tGravityAccStdZ
-tBodyAccJerkMeanX
-tBodyAccJerkMeanY
-tBodyAccJerkMeanZ
-tBodyAccJerkStdX
-tBodyAccJerkStdY
-tBodyAccJerkStdZ
-tBodyGyroMeanX
-tBodyGyroMeanY
-tBodyGyroMeanZ
-tBodyGyroStdX
-tBodyGyroStdY
-tBodyGyroStdZ
-tBodyGyroJerkMeanX
-tBodyGyroJerkMeanY
-tBodyGyroJerkMeanZ
-tBodyGyroJerkStdX
-tBodyGyroJerkStdY
-tBodyGyroJerkStdZ
-tBodyAccMagMean
-tBodyAccMagStd
-tGravityAccMagMean
-tGravityAccMagStd
-tBodyAccJerkMagMean
-tBodyAccJerkMagStd
-tBodyGyroMagMean
-tBodyGyroMagStd
-tBodyGyroJerkMagMean
-tBodyGyroJerkMagStd
-fBodyAccMeanX
-fBodyAccMeanY
-fBodyAccMeanZ
-fBodyAccStdX
-fBodyAccStdY
-fBodyAccStdZ
-fBodyAccMeanFreqX
-fBodyAccMeanFreqY
-fBodyAccMeanFreqZ
-fBodyAccJerkMeanX
-fBodyAccJerkMeanY
-fBodyAccJerkMeanZ
-fBodyAccJerkStdX
-fBodyAccJerkStdY
-fBodyAccJerkStdZ
-fBodyAccJerkMeanFreqX
-fBodyAccJerkMeanFreqY
-fBodyAccJerkMeanFreqZ
-fBodyGyroMeanX
-fBodyGyroMeanY
-fBodyGyroMeanZ
-fBodyGyroStdX
-fBodyGyroStdY
-fBodyGyroStdZ
-fBodyGyroMeanFreqX
-fBodyGyroMeanFreqY
-fBodyGyroMeanFreqZ
-fBodyAccMagMean
-fBodyAccMagStd
-fBodyAccMagMeanFreq
-fBodyBodyAccJerkMagMean
-fBodyBodyAccJerkMagStd
-fBodyBodyAccJerkMagMeanFreq
-fBodyBodyGyroMagMean
-fBodyBodyGyroMagStd
-fBodyBodyGyroMagMeanFreq
-fBodyBodyGyroJerkMagMean
-fBodyBodyGyroJerkMagStd
-fBodyBodyGyroJerkMagMeanFreq
+<br />tBodyAccMeanX
+<br />tBodyAccMeanY
+<br />tBodyAccMeanZ
+<br />tBodyAccStdX
+<br />tBodyAccStdY
+<br />tBodyAccStdZ
+<br />tGravityAccMeanX
+<br />tGravityAccMeanY
+<br />tGravityAccMeanZ
+<br />tGravityAccStdX
+<br />tGravityAccStdY
+<br />tGravityAccStdZ
+<br />tBodyAccJerkMeanX
+<br />tBodyAccJerkMeanY
+<br />tBodyAccJerkMeanZ
+<br />tBodyAccJerkStdX
+<br />tBodyAccJerkStdY
+<br />tBodyAccJerkStdZ
+<br />tBodyGyroMeanX
+<br />tBodyGyroMeanY
+<br />tBodyGyroMeanZ
+<br />tBodyGyroStdX
+<br />tBodyGyroStdY
+<br />tBodyGyroStdZ
+<br />tBodyGyroJerkMeanX
+<br />tBodyGyroJerkMeanY
+<br />tBodyGyroJerkMeanZ
+<br />tBodyGyroJerkStdX
+<br />tBodyGyroJerkStdY
+<br />tBodyGyroJerkStdZ
+<br />tBodyAccMagMean
+<br />tBodyAccMagStd
+<br />tGravityAccMagMean
+<br />tGravityAccMagStd
+<br />tBodyAccJerkMagMean
+<br />tBodyAccJerkMagStd
+<br />tBodyGyroMagMean
+<br />tBodyGyroMagStd
+<br />tBodyGyroJerkMagMean
+<br />tBodyGyroJerkMagStd
+<br />fBodyAccMeanX
+<br />fBodyAccMeanY
+<br />fBodyAccMeanZ
+<br />fBodyAccStdX
+<br />fBodyAccStdY
+<br />fBodyAccStdZ
+<br />fBodyAccMeanFreqX
+<br />fBodyAccMeanFreqY
+<br />fBodyAccMeanFreqZ
+<br />fBodyAccJerkMeanX
+<br />fBodyAccJerkMeanY
+<br />fBodyAccJerkMeanZ
+<br />fBodyAccJerkStdX
+<br />fBodyAccJerkStdY
+<br />fBodyAccJerkStdZ
+<br />fBodyAccJerkMeanFreqX
+<br />fBodyAccJerkMeanFreqY
+<br />fBodyAccJerkMeanFreqZ
+<br />fBodyGyroMeanX
+<br />fBodyGyroMeanY
+<br />fBodyGyroMeanZ
+<br />fBodyGyroStdX
+<br />fBodyGyroStdY
+<br />fBodyGyroStdZ
+<br />fBodyGyroMeanFreqX
+<br />fBodyGyroMeanFreqY
+<br />fBodyGyroMeanFreqZ
+<br />fBodyAccMagMean
+<br />fBodyAccMagStd
+<br />fBodyAccMagMeanFreq
+<br />fBodyBodyAccJerkMagMean
+<br />fBodyBodyAccJerkMagStd
+<br />fBodyBodyAccJerkMagMeanFreq
+<br />fBodyBodyGyroMagMean
+<br />fBodyBodyGyroMagStd
+<br />fBodyBodyGyroMagMeanFreq
+<br />fBodyBodyGyroJerkMagMean
+<br />fBodyBodyGyroJerkMagStd
+<br />fBodyBodyGyroJerkMagMeanFreq
 ##Activity Labels
-1 WALKING
-2 WALKING_UPSTAIRS
-3 WALKING_DOWNSTAIRS
-4 SITTING
-5 STANDING
-6 LAYING
+<br />1 walking
+<br />2 walking_upstairs
+<br />3 walking_downstairs
+<br />4 sitting
+<br />5 standing
+<br />6 laying
