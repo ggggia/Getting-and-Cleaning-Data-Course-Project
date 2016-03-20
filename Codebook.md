@@ -83,7 +83,7 @@ This codebook includes identifiers, measurements and activity labels to summariz
 <br />fBodyBodyGyroJerkMagMean
 <br />fBodyBodyGyroJerkMagStd
 <br />fBodyBodyGyroJerkMagMeanFreq
-##Activity Labels
+##Type of activity
 walking
 <br />walking_upstairs
 <br />walking_downstairs
