@@ -1,3 +1,14 @@
+filename <- "getdata_dataset.zip"
+
+# Download and unzip the dataset:
+if (!file.exists(filename)){
+  fileURL <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip "
+  download.file(fileURL, filename, method="curl")
+}  
+if (!file.exists("UCI HAR Dataset")) { 
+  unzip(filename) 
+}
+
 #Load the datasets
 
 activityLabels <- read.table("UCI HAR Dataset/activity_labels.txt")
@@ -40,7 +51,3 @@ summary <- melt(selectedtable, id = c("subject","activity"))
 summarymn <- dcast(summary, subject + activity ~ variable, mean)
 
 write.table(summarymn, "tidy.txt", row.names = FALSE, quote = FALSE)
-
-
-
-
